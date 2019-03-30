@@ -18,6 +18,6 @@ fi
 
 # set PATH so it includes user's private bin directories
 DEFAULT_USER=$USER
-PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 EDITOR="vi"
 VISUAL="vi"
+PATH="/bin:/sbin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$HOME/.local/bin"
